@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../estilos.css">  <!--AGREGADO DE CSS ESTILOS.-->
+    <title>Contacto - Europlast</title>
+</head>
+<body>
+
+    <header class="header">
+        <label class="header__logo">Europlast</label>
+        <nav>
+            <ul  class="header__menu">
+                <li class="header__item">
+                    <a class="header__enlace" href="../index.html">Inicio</a>
+                </li>
+                <li class="header__item">
+                    <a class="header__enlace" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="header__item">
+                    <a class="header__enlace" href="productos.html">Productos</a>
+    
+                        <ul class="header__submenu">
+                            <li class="header__item header__subitem">
+                                <a class="header__enlace" href="#">PET</a>
+                            </li>
+                            <li class="header__item header__subitem">
+                                <a class="header__enlace" href="#">PEAD</a>
+                            </li>
+                            <li class="header__item header__subitem">
+                                <a class="header__enlace" href="#">PVC</a>
+                            </li>     
+                             <li class="header__item header__subitem">
+                                <a class="header__enlace" href="#">PP</a>
+                            </li> 
+                        </ul> 
+                </li>
+                <li class="header__item">
+                    <a class="header__enlace" href="servicios.html">Servicios</a>
+                </li>
+                <li class="header__item">
+                    <a class="header__enlace" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+    
+        </nav>
+    </header>    
+
+
+
+
+    <section class="contacto">
+     
+        <h3 class="titulos">Formulario de contacto</h3>
+        <div class="datosep">
+          <p>(0341) 153565882</p>
+          <p>europlastarg@gmail.com</p>
+          <p>Balcarce 5833A, Rosario, Provincia de Santa Fe</p>
+        
+        <h3 id="ff">Dejanos tu mensaje</h3>
+       
+        <form action="frmContacto">
+ 
+          <input type="text" placeholder="Nombre/Apellido" name="nombre"><br>
+          
+         <!-- <label for="Apellido">Apellido: -->
+           <input type="email" name="email" placeholder="Correo electronico"><br>
+         <!-- </label> -->
+         <input type="text" name="empresa" placeholder="Empresa" id=""><br>
+         
+         <input type="tel" name="telefono" placeholder="Teléfono"><br>
+          
+
+         <textarea name="textoarea" placeholder="¿Quieres aregar algo más? Escribelo aquí" cols="40" rows="15"></textarea><br>
+        
+
+         <input type="submit" value="Enviar formulario">
+         <input type="reset" value="Limpiar formulario">
+
+     </form>
+
+    </div>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.9607568246392!2d-60.66528908510638!3d-33.00481008216434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abe4b5bef341%3A0x8e4ce02d4b017de4!2sBalcarce%205833A%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1637556914076!5m2!1ses-419!2sar" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class="redes">
+        <h3>Seguinos en:</h3>
+      
+        
+        <a href="https://www.facebook.com/europlastarg" target="_blank"> <img src="../Multimedia/facebook.png" alt="logoFb"></a>
+
+        <a href="https://www.instagram.com/europlast" target="_blank"> <img src="../Multimedia/instagram.png" alt="logoIg"></a>
+
+        <a href="https://www.youtube.com/europlastarg" target="_blank"> <img src="../Multimedia/youtube.png" alt="logoYt"></a>
+
+        <a href="https://www.linkedin.com/europlastarg" target="_blank"> <img src="../Multimedia/linkedin.png" alt="logoIn"></a>
+
+       
+      </div>      
+     
+      
+    </section>
+
+    <footer class="footer">
+        
+        <div class="footer__logo">
+            <a href="www.instagram.com/europlast"><img src="../img/instagram.png" alt="logoIg"></a>
+
+            <a href="www.facebook.com/europlast"><img src="../img/facebook.png" alt="logoFb"></a>
+
+            <a href="www.linkedin.com/europlast"><img src="../img/linkedin.png" alt="logoLn"></a>
+
+
+        </div>
+        <div class="footer__texto">
+                <label for="footer_direccion">Balcarce 5833A - (2000) Rosario - Sta Fe</label>
+                <label for="footer_direccion">europlastarg@gmail.com</label>
+                <label for="footer_direccion">(0341) 153565882</label>
+                
+
+        </div>
+        
+    </footer>    
+    
+
+</body>
+</html>
