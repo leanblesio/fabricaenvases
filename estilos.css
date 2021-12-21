@@ -18,7 +18,14 @@ body{
 
 /* **************************** HEADER **************************** */
 
-.header{
+#header  { 
+     background-color: rgb(37, 74, 194) ; 
+    background-image: url(img/fondo\ backg.png);
+  
+}
+
+/* .header{
+    
 
     padding-top: 0px;
     display: flex;
@@ -27,7 +34,7 @@ body{
     align-items: center;
     background-color: rgb(37, 74, 194);
     background-image: url(img/fondo\ backg.png);
-}
+} */
 
 .header__item{
     padding: 7px 20px;

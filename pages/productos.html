@@ -11,44 +11,44 @@
 </head>
 <body>
 
-    <header class="header">
-        <label class="header__logo">Europlast</label>
-        <nav>
-            <ul  class="header__menu">
-                <li class="header__item">
-                    <a class="header__enlace" href="../index.html">Inicio</a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark" id="header">
+        
+            <!-- Brand -->
+            <a class="navbar-brand header__logo" href="#">Europlast</a>
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
                 </li>
-                <li class="header__item">
-                    <a class="header__enlace" href="nosotros.html">Nosotros</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
                 </li>
-                <li class="header__item">
-                    <a class="header__enlace" href="productos.html">Productos</a>
-    
-                        <ul class="header__submenu">
-                            <li class="header__item header__subitem">
-                                <a class="header__enlace" href="#">PET</a>
-                            </li>
-                            <li class="header__item header__subitem">
-                                <a class="header__enlace" href="#">PEAD</a>
-                            </li>
-                            <li class="header__item header__subitem">
-                                <a class="header__enlace" href="#">PVC</a>
-                            </li>     
-                             <li class="header__item header__subitem">
-                                <a class="header__enlace" href="#">PP</a>
-                            </li> 
-                        </ul> 
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#PET">PET</a>
+                        <a class="dropdown-item" href="#PEAD">PEAD</a>
+                        <a class="dropdown-item" href="#PVC">PVC</a>
+                        <a class="dropdown-item" href="#PP">PP</a>
+                        <a class="dropdown-item" href="#BOT">Botellas</a>
+                        <a class="dropdown-item" href="#POT">Potes</a>
+                    </div>
                 </li>
-                <li class="header__item">
-                    <a class="header__enlace" href="servicios.html">Servicios</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
-                <li class="header__item">
-                    <a class="header__enlace" href="contacto.html">Contacto</a>
-                </li>
+
             </ul>
-    
+            <button type="submit" class="btn btn-success"><a href="contacto.html"></a>Contactanos!!</button>
+          
         </nav>
-    </header>  
+    </header>
     
     <main>
         <section class="contenedor">
@@ -124,6 +124,8 @@
         
     </footer>  
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>  
 </body>
 </html>
