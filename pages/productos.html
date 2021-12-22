@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="../estilos.css">  <!--AGREGADO DE CSS ESTILOS.-->
@@ -11,9 +13,11 @@
 </head>
 <body>
 
-    <header>
+     <!-- header - inicio -->
+
+     <header>
         <nav class="navbar navbar-expand-sm navbar-dark" id="header">
-        
+
             <!-- Brand -->
             <a class="navbar-brand header__logo" href="#">Europlast</a>
 
@@ -36,8 +40,6 @@
                         <a class="dropdown-item" href="#PEAD">PEAD</a>
                         <a class="dropdown-item" href="#PVC">PVC</a>
                         <a class="dropdown-item" href="#PP">PP</a>
-                        <a class="dropdown-item" href="#BOT">Botellas</a>
-                        <a class="dropdown-item" href="#POT">Potes</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -45,58 +47,84 @@
                 </li>
 
             </ul>
-            <button type="submit" class="btn btn-success"><a href="contacto.html"></a>Contactanos!!</button>
-          
+            <button type="submit" class="btn btn-success float"><a href="pages/contacto.html"></a>Contactanos!!</button>
+
+
         </nav>
     </header>
+
+      <!-- header - fin -->
     
     <main>
-        <section class="contenedor">
-            <div class="jumbotron" >
-                <label class="contenedor__texto">DEJAMOS NUESTRA IMPRONTA EN CADA ENVASE.</label>
-            </div>       
-            <div class="contenedor__div contenedor__subtitulo">
-                <label>Nuestros productos</label>
-            </div>
-            <!-- <div class="contenedor__div contenedor__linea"></div> -->
-            <div class="contenedor__div contenedor__pet"></div>
-            <div class="contenedor__div contenedor__pead"></div>
-            <div class="contenedor__div contenedor__pvc"></div> 
-             <div class="contenedor__div contenedor__pp"></div> 
-            
-        </section>
+             <!-- jumbotron - inicio -->
+        <div class="jumbotron row contenedor__imagen">
+            <label class="contenedor__texto">NOS INVOLUCRAMOS EN CADA PROYECTO</label>
+        </div>
+          <!-- jumbotron - fin -->
+        <div class="contenedor__subtitulo">
+            <label>Nuestros productos</label>
+        </div>
 
-        <section class="productos">
-            <div class="productos__div productos__bp1000">
-                <label>Botella pead 1lt <br></label>
-                <img src="../img/bp1000.jpg" alt="imgbp1000">
+    
+        <section class="filtro">
+
+        </section>
+        
+
+        <section class="productos row">
+
+                    <!-- botellas pead - inicio -->
+
+            <div class="conteiner__div contenedor__pead col-x2-12 col-sm-12 col-lg-12" id="PEAD"></div>
+
+            <div class="productos__div productos__bp1000 col-xs-12 col-sm-6 col-lg-6">
+                <p class="pd">Botella pead 1lt <br></p>
+                <img src="../img/bp1000.jpg" alt="imgbp1000" class="rounded">
                 <p class="productos__descrip">Rosca diametro 28 <br>Cantidad por bulto 105 <br></p>
-            </div>
-            <div class="productos__div productos__bp2000">
-                <label>Botella pead 2lt <br></label>
-                <img src="../img/bp2000.jpg" alt="imgbp2000">
+             </div>
+
+              <div class="productos__div productos__bp2000 col-xs-12 col-sm-6 col-lg-4">
+                <p class="pd">Botella pead 2lt <br></p>
+                <img src="../img/bp2000.jpg" alt="imgbp2000" class="rounded">
                 <p class="productos__descrip">Rosca diametro 28 <br>Cantidad por bulto 105 <br></p>
-            </div>
-            <div class="productos__div productos__c250">
-                <label>Botella pet 250cc <br></label>
-                <img src="../img/c250.jpg" alt="imgc250">
+             </div>
+                   <!-- botellas pead - fin -->
+
+                    <!-- botellas pet - inicio -->
+
+             <div class="conteiner__div contenedor__pet col-xs-12 col-sm-12 col-lg-12" id="PET"></div>
+
+              <div class="productos__div productos__c250 col-xs-12 col-sm-6 col-lg-4">
+                <p class="pd">Botella pet 250cc <br></p>
+                <img src="../img/c250.jpg" alt="imgc250" class="rounded">
                 <p class="productos__descrip">Rosca oil diametro 29 <br>Cantidad por bulto 110 <br></p>
-            </div>
-            <div class="productos__div productos__c500">
-                <label>Botella pet 500cc <br></label>
-                <img src="../img/c500.jpg" alt="imgc500">
+               </div>
+
+              <div class="productos__div productos__c500 col-xs-12 col-sm-6 col-lg-4">
+                  <p class="pd">Botella pet 500cc <br></p>
+                <img src="../img/c500.jpg" alt="imgc500" class="rounded">
                 <p class="productos__descrip">Rosca oil diametro 29 <br>Cantidad por bulto 115 <br></p>
-            </div>
-            <div class="productos__div productos__c1000">
-                <label>Botella pet 1000cc <br></label>
-                <img src="../img/c1000.jpg" alt="imgc1000">
+               </div>
+
+              <div class="productos__div productos__c1000 col-xs-12 col-sm-12 col-lg-4">
+                <p class="pd">Botella pet 1000cc <br></p>
+                <img src="../img/c1000.jpg" alt="imgc1000" class="rounded">
                 <p class="productos__descrip">Rosca oil diametro 29 <br>Cantidad por bulto 105 <br></p>
-            </div>
-            <div class="productos__div productos__bp5000">
-                <label>Bidon pead x 5lt cristal<br></label>
-                <img src="../img/bp5000.jpg" alt="imgbp5000">
+              </div>
+
+                      <!-- botellas pet - fin -->
+
+                      <!-- botellas pvc - inicio -->
+
+              <div class="conteiner__div contenedor__pvc col-xs-12 col-sm-12 col-lg-12" id="PVC"></div>
+
+             <div class="productos__div productos__bp5000 col-xs-12 col-sm-12 col-lg-12">
+                <p class="pd">Bidon pead x 5lt cristal<br></p>
+                <img src="../img/bp5000.jpg" alt="imgbp5000" class="rounded">
                 <p class="productos__descrip">Rosca diametro 42 <br>Cantidad por bulto 27 <br></p>
-            </div>         
+            </div>     
+            
+                       <!-- botellas pvc - fin -->
         </section>
 
 

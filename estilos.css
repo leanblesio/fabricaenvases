@@ -228,24 +228,14 @@ font-weight: bold;
 
 /* **************************** PRODUCTOS*************************** */
 
-.productos{
-     padding-top: 10px;
-     padding-left: 20px;
-     min-width: 100%;
-     min-height: 75vh;
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr;
-     grid-row-gap: 10px;
-     justify-content: center;
-    }
-
 .productos__div{  
-    justify-self: center;
-    align-self: center;
+    /* justify-self: center; */
+    /* align-self: center; */
     text-align: center;
-    width: 100%;
-    height: 450px;
+    /* width: 100%; */
+    /* height: 450px; */
+    /* background-color: rebeccapurple; */
+    border: 5px solid #fff;
    
 }
 .productos__div img{
@@ -259,13 +249,8 @@ font-weight: bold;
     font-weight: bolder;
    
 }
-.productos__div img{
-    width: 260px;   
-    height: 300px;
-}
-
-.productos__div label{
-    
+.pd{
+    font-weight: bold;
     padding: 10px 0px;
     font-size: 20px;
     font-weight: bold;
